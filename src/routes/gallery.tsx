@@ -26,14 +26,14 @@ function Gallery() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {works.map((w) => (
             <figure key={w.id} className="group">
-              <div className="overflow-hidden bg-muted">
+              <div className="overflow-hidden bg-background aspect-square">
                 <img
                   src={w.image}
                   alt={w.title}
                   loading="lazy"
                   width={1200}
                   height={1200}
-                  className="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-[1.03]"
+                  className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-[1.03]"
                 />
               </div>
               <figcaption className="mt-4 text-center">
