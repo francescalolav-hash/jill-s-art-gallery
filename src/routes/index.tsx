@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
 import stones from "@/assets/stones.jpg.asset.json";
-import portrait from "@/assets/portrait.jpg";
+import portrait from "@/assets/portrait.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -70,7 +70,7 @@ function Home() {
           </div>
           <div>
             <img
-              src={portrait}
+              src={portrait.url}
               alt="Portrait of Jill Pierucci Bolakas in her studio"
               loading="lazy"
               width={900}
