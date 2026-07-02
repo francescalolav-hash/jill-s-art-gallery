@@ -36,7 +36,7 @@ function Available() {
                 loading="lazy"
                 width={1200}
                 height={1200}
-                className="w-full aspect-square object-cover [direction:ltr]"
+                className="w-full aspect-square object-contain [direction:ltr]"
               />
               <div className="[direction:ltr]">
                 <h3 className="text-3xl italic font-serif">{w.title}</h3>
