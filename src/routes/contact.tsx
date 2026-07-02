@@ -26,13 +26,13 @@ function Contact() {
         <div className="space-y-6 text-sm">
           <div>
             <div className="text-xs tracking-[0.25em] uppercase text-muted-foreground mb-1">Email</div>
-            <a href="mailto:studio@jillpieruccibolakas.com" className="text-accent hover:underline text-lg">
-              studio@jillpieruccibolakas.com
+            <a href="mailto:Jillyb9583@aol.com" className="text-accent hover:underline text-lg">
+              Jillyb9583@aol.com
             </a>
           </div>
           <div>
             <div className="text-xs tracking-[0.25em] uppercase text-muted-foreground mb-1">Studio</div>
-            <div>By appointment · Providence, Rhode Island</div>
+            <div>Altavista, Virginia</div>
           </div>
         </div>
 
@@ -40,7 +40,7 @@ function Contact() {
           className="mt-16 text-left space-y-5"
           onSubmit={(e) => {
             e.preventDefault();
-            window.location.href = "mailto:studio@jillpieruccibolakas.com";
+            window.location.href = "mailto:Jillyb9583@aol.com";
           }}
         >
           <div>
