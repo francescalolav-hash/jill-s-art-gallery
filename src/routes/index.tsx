@@ -36,21 +36,35 @@ function Home() {
             <h2 className="text-4xl md:text-5xl mb-8">Biography</h2>
             <div className="space-y-6 text-base md:text-lg leading-relaxed text-foreground/85 max-w-2xl font-light">
               <p>
-                Jill Pierucci Bolakas is a sculptor working primarily in wood.
-                Her practice grew from a background in fibers, and the influence
-                remains visible in the linear, layered structures that define
-                each piece — progressive rhythms of carved strips that catch
-                light, cast shadow, and suggest movement in stillness.
+                Jill Pierucci Bolakas is a mixed media artist working in acrylic,
+                collage, and oil and cold wax media. Her work is rooted in the
+                patterns and forms of the natural world, from the radial symmetry
+                of a jellyfish, to the smooth weight of river stones pressed
+                together over centuries. Her work spans the interlocking geometry
+                of organic textures found at the water's edge and forest floor.
               </p>
               <p>
-                Her recent work considers forms that develop over time. The
-                undulating layers speak of mortality, of the long expanses that
-                lead to a single moment of beauty. Each sculpture is shaped by
-                hand, one strip at a time, until the whole finds its rhythm.
+                What draws Jill to these subjects is not their surface beauty alone,
+                but the underlying logic beneath it, but the way nature repeats itself
+                across scales, the way light behaves differently inside a translucent
+                thing than it does on an opaque one. These questions drive her
+                process as much as her subject matter.
               </p>
               <p>
-                Jill has exhibited widely and her work is held in private and
-                corporate collections across the United States.
+                Her mixed media approach reflects this layered thinking. Cold wax and
+                oil build slowly across the canvas, each pass transforming what came
+                before, creating surfaces with depth and luminosity that shift with
+                the light. Collage introduces the physical world directly through
+                paper, texture, material with its own history, while acrylic brings
+                immediacy and saturated color. The result is work that feels
+                simultaneously ancient and alive.
+              </p>
+              <p>
+                Jill's recent abstract pieces push further from representation while
+                remaining anchored in nature's vocabulary: the jewel-toned fields of
+                her stone compositions recall stained glass and tide pools in equal
+                measure, while her woven collage work evokes harvested earth and the
+                quiet architecture of things that grow slowly.
               </p>
             </div>
           </div>
