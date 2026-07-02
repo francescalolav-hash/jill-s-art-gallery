@@ -42,7 +42,7 @@ export function SiteFooter() {
   return (
     <footer className="mt-24 border-t border-border">
       <div className="max-w-6xl mx-auto px-6 py-8 text-center text-xs tracking-[0.2em] uppercase text-muted-foreground">
-        © {new Date().getFullYear()} Jill Pierucci Bolakas · Studio Sculpture
+        © {new Date().getFullYear()} Jill Pierucci Bolakas · Studio
       </div>
     </footer>
   );
