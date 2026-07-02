@@ -23,8 +23,8 @@ function Home() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="mt-2">
           <img
-            src={hero}
-            alt="Detail of a large carved wood sculpture with vertical undulating ribbons"
+            src={stones.url}
+            alt="River Stones — mixed media on canvas"
             width={1920}
             height={1280}
             className="w-full h-[55vh] md:h-[70vh] object-cover"
