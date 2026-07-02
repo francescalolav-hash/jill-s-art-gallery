@@ -40,7 +40,7 @@ function Contact() {
           className="mt-16 text-left space-y-5"
           onSubmit={(e) => {
             e.preventDefault();
-            window.location.href = "mailto:studio@jillpieruccibolakas.com";
+            window.location.href = "mailto:Jillyb9583@aol.com";
           }}
         >
           <div>
