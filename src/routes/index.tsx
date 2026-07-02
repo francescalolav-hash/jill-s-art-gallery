@@ -77,9 +77,6 @@ function Home() {
               height={1200}
               className="w-full object-cover"
             />
-            <p className="mt-3 text-xs tracking-[0.2em] uppercase text-muted-foreground text-center">
-              In the studio
-            </p>
           </div>
         </section>
       </div>
