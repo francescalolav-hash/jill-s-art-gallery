@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as ResumeRouteImport } from './routes/resume'
 import { Route as GalleryRouteImport } from './routes/gallery'
+import { Route as ExhibitionsRouteImport } from './routes/exhibitions'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as AvailableRouteImport } from './routes/available'
 import { Route as IndexRouteImport } from './routes/index'
@@ -23,6 +24,11 @@ const ResumeRoute = ResumeRouteImport.update({
 const GalleryRoute = GalleryRouteImport.update({
   id: '/gallery',
   path: '/gallery',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ExhibitionsRoute = ExhibitionsRouteImport.update({
+  id: '/exhibitions',
+  path: '/exhibitions',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ContactRoute = ContactRouteImport.update({
@@ -45,6 +51,7 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/available': typeof AvailableRoute
   '/contact': typeof ContactRoute
+  '/exhibitions': typeof ExhibitionsRoute
   '/gallery': typeof GalleryRoute
   '/resume': typeof ResumeRoute
 }
@@ -52,6 +59,7 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/available': typeof AvailableRoute
   '/contact': typeof ContactRoute
+  '/exhibitions': typeof ExhibitionsRoute
   '/gallery': typeof GalleryRoute
   '/resume': typeof ResumeRoute
 }
@@ -60,21 +68,36 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/available': typeof AvailableRoute
   '/contact': typeof ContactRoute
+  '/exhibitions': typeof ExhibitionsRoute
   '/gallery': typeof GalleryRoute
   '/resume': typeof ResumeRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/available' | '/contact' | '/gallery' | '/resume'
+  fullPaths:
+    | '/'
+    | '/available'
+    | '/contact'
+    | '/exhibitions'
+    | '/gallery'
+    | '/resume'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/available' | '/contact' | '/gallery' | '/resume'
-  id: '__root__' | '/' | '/available' | '/contact' | '/gallery' | '/resume'
+  to: '/' | '/available' | '/contact' | '/exhibitions' | '/gallery' | '/resume'
+  id:
+    | '__root__'
+    | '/'
+    | '/available'
+    | '/contact'
+    | '/exhibitions'
+    | '/gallery'
+    | '/resume'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AvailableRoute: typeof AvailableRoute
   ContactRoute: typeof ContactRoute
+  ExhibitionsRoute: typeof ExhibitionsRoute
   GalleryRoute: typeof GalleryRoute
   ResumeRoute: typeof ResumeRoute
 }
@@ -93,6 +116,13 @@ declare module '@tanstack/react-router' {
       path: '/gallery'
       fullPath: '/gallery'
       preLoaderRoute: typeof GalleryRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/exhibitions': {
+      id: '/exhibitions'
+      path: '/exhibitions'
+      fullPath: '/exhibitions'
+      preLoaderRoute: typeof ExhibitionsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/contact': {
@@ -123,6 +153,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AvailableRoute: AvailableRoute,
   ContactRoute: ContactRoute,
+  ExhibitionsRoute: ExhibitionsRoute,
   GalleryRoute: GalleryRoute,
   ResumeRoute: ResumeRoute,
 }
