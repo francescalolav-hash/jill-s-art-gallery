@@ -1,15 +1,15 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
-import hero from "@/assets/hero.jpg";
+import stones from "@/assets/stones.jpg.asset.json";
 import portrait from "@/assets/portrait.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Jill Pierucci Bolakas — Sculptor" },
-      { name: "description", content: "Sculptural works in wood by Jill Pierucci Bolakas — carved, layered forms exploring rhythm, movement, and time." },
-      { property: "og:title", content: "Jill Pierucci Bolakas — Sculptor" },
-      { property: "og:description", content: "Sculptural works in wood by Jill Pierucci Bolakas." },
+      { title: "Jill Pierucci Bolakas — Artist" },
+      { name: "description", content: "Mixed media works by Jill Pierucci Bolakas — layered forms exploring rhythm, movement, and time." },
+      { property: "og:title", content: "Jill Pierucci Bolakas — Artist" },
+      { property: "og:description", content: "Mixed media works by Jill Pierucci Bolakas." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
