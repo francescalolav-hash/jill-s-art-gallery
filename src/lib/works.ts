@@ -32,7 +32,7 @@ export const works: Work[] = [
   { id: "garden-visitor", title: "Butterfly Journey", year: 2026, medium: "Mixed media, collage on cradleboard", dimensions: '12" × 12"', image: gardenVisitor.url, available: true, price: "Inquire" },
   { id: "tidal-bloom", title: "Falling Blooms", year: 2026, medium: "Mixed media on canvas", dimensions: '12" × 12"', image: tidalBloom.url, available: true, price: "Inquire" },
   { id: "not-for-sale", title: "Not For Sale", year: 2026, medium: "Mixed media/cold wax on cradleboard", dimensions: '12" × 12"', image: notForSale.url, available: false },
-  { id: "kachina", title: "Kachina", year: 2026, medium: "Mixed media on canvas", dimensions: '12" × 24"', image: kachina.url, available: true, price: "Inquire" },
+  { id: "blue-corn-maiden", title: "Blue Corn Maiden", year: 2026, medium: "Acrylic on canvas", dimensions: '18" × 32"', image: kachina.url, available: true, price: "Inquire" },
   { id: "circles", title: "Circles", year: 2026, medium: "Mixed media on cradleboard", dimensions: '12" × 12"', image: circles.url, available: true, price: "Inquire" },
   { id: "red-panels", title: "Red Panels", year: 2026, medium: "Mixed media on canvas", dimensions: '18" × 24"', image: redPanels.url, available: true, price: "Inquire" },
 ];
