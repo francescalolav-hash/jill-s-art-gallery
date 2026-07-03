@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "asset_id": "9dc82757-5940-450a-a18e-842017865a44",
+  "asset_id": "f7ba9e5b-f7a0-4b7d-a6c1-7e3e2cc6d0cb",
   "project_id": "75143061-5e9c-4f4e-b2e6-7cfd62ae097e",
-  "url": "/__l5e/assets-v1/9dc82757-5940-450a-a18e-842017865a44/not-for-sale-framed.jpg",
-  "r2_key": "a/v1/75143061-5e9c-4f4e-b2e6-7cfd62ae097e/9dc82757-5940-450a-a18e-842017865a44/not-for-sale-framed.jpg",
-  "original_filename": "not-for-sale-framed.jpg",
-  "size": 146652,
+  "url": "/__l5e/assets-v1/f7ba9e5b-f7a0-4b7d-a6c1-7e3e2cc6d0cb/not-for-sale.jpg",
+  "r2_key": "a/v1/75143061-5e9c-4f4e-b2e6-7cfd62ae097e/f7ba9e5b-f7a0-4b7d-a6c1-7e3e2cc6d0cb/not-for-sale.jpg",
+  "original_filename": "not-for-sale.jpg",
+  "size": 488353,
   "content_type": "image/jpeg",
-  "created_at": "2026-07-03T16:29:59Z"
+  "created_at": "2026-07-03T16:35:32Z"
 }
