@@ -20,7 +20,7 @@ export type Work = {
 };
 
 export const works: Work[] = [
-  { id: "jellyfish-drift", title: "Jellyfish 3", year: 2024, medium: "Mixed media on canvas", dimensions: '10" × 20"', image: jellyfish.url, available: true, price: "Inquire" },
+  { id: "jellyfish-drift", title: "Jellyfish 3", year: 2026, medium: "Mixed media on canvas", dimensions: '10" × 20"', image: jellyfish.url, available: true, price: "Inquire" },
   { id: "river-stones", title: "River Stones", year: 2023, medium: "Mixed media on canvas", dimensions: '36" × 24"', image: stones.url, available: true, price: "Inquire" },
   { id: "woven-earth", title: "Woven Earth", year: 2024, medium: "Mixed media, handmade paper on canvas", dimensions: '30" × 30"', image: woven.url, available: true, price: "Inquire" },
   { id: "annettes-garden", title: "Annette's Garden", year: 2025, medium: "Mixed media on canvas", dimensions: '30" × 24"', image: annettesGarden.url, available: true, price: "Inquire" },
