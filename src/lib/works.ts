@@ -7,6 +7,9 @@ import goldenThaw from "@/assets/golden-thaw-framed.jpg.asset.json";
 import gardenVisitor from "@/assets/garden-visitor-framed.jpg.asset.json";
 import tidalBloom from "@/assets/tidal-bloom-framed.jpg.asset.json";
 import notForSale from "@/assets/not-for-sale-framed.jpg.asset.json";
+import kachina from "@/assets/kachina-framed.jpg.asset.json";
+import circles from "@/assets/circles-framed.jpg.asset.json";
+import redPanels from "@/assets/red-panels-framed.jpg.asset.json";
 
 export type Work = {
   id: string;
