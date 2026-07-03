@@ -42,7 +42,7 @@ function Resume() {
         <Section title="Education">
           <Entry year="—">Moore College of Art and Design, Philadelphia, PA. Freelance Art/Storyboard art</Entry>
           <Entry year="—">Rutgers University, Camden, NJ. Computer Graphics, Graphic Design</Entry>
-          <Entry year="—">Deborah Heart and Lunch Center, Browns Mills, NJ. Medical Illustration</Entry>
+          <Entry year="—">Deborah Heart and Lung Center, Browns Mills, NJ. Medical Illustration</Entry>
         </Section>
 
         <Section title="Selected Group Exhibitions">
