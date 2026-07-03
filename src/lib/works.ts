@@ -7,6 +7,9 @@ import goldenThaw from "@/assets/golden-thaw-framed.jpg.asset.json";
 import gardenVisitor from "@/assets/garden-visitor-framed.jpg.asset.json";
 import tidalBloom from "@/assets/tidal-bloom-framed.jpg.asset.json";
 import notForSale from "@/assets/not-for-sale-framed.jpg.asset.json";
+import kachina from "@/assets/kachina-framed.jpg.asset.json";
+import circles from "@/assets/circles-framed.jpg.asset.json";
+import redPanels from "@/assets/red-panels-framed.jpg.asset.json";
 
 export type Work = {
   id: string;
@@ -29,4 +32,7 @@ export const works: Work[] = [
   { id: "garden-visitor", title: "Butterfly Journey", year: 2026, medium: "Mixed media, collage on cradleboard", dimensions: '12" × 12"', image: gardenVisitor.url, available: true, price: "Inquire" },
   { id: "tidal-bloom", title: "Falling Blooms", year: 2026, medium: "Mixed media on canvas", dimensions: '12" × 12"', image: tidalBloom.url, available: true, price: "Inquire" },
   { id: "not-for-sale", title: "Not For Sale", year: 2026, medium: "Mixed media/cold wax on cradleboard", dimensions: '12" × 12"', image: notForSale.url, available: false },
+  { id: "kachina", title: "Kachina", year: 2026, medium: "Mixed media on canvas", dimensions: '12" × 24"', image: kachina.url, available: true, price: "Inquire" },
+  { id: "circles", title: "Circles", year: 2026, medium: "Mixed media on cradleboard", dimensions: '12" × 12"', image: circles.url, available: true, price: "Inquire" },
+  { id: "red-panels", title: "Red Panels", year: 2026, medium: "Mixed media on canvas", dimensions: '18" × 24"', image: redPanels.url, available: true, price: "Inquire" },
 ];
