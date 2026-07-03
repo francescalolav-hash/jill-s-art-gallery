@@ -27,6 +27,6 @@ export const works: Work[] = [
   { id: "last-sunset", title: "Last Sunset", year: 2026, medium: "Acrylic and cold wax on panel", dimensions: '24" × 24"', image: lastSunset.url, available: true, price: "Inquire" },
   { id: "golden-thaw", title: "Golden Thaw", year: 2026, medium: "Mixed media, collage on canvas", dimensions: '24" × 24"', image: goldenThaw.url, available: true, price: "Inquire" },
   { id: "garden-visitor", title: "Garden Visitor", year: 2026, medium: "Mixed media, collage on canvas", dimensions: '24" × 24"', image: gardenVisitor.url, available: true, price: "Inquire" },
-  { id: "tidal-bloom", title: "Tidal Bloom", year: 2026, medium: "Mixed media on canvas", dimensions: '24" × 24"', image: tidalBloom.url, available: true, price: "Inquire" },
+  { id: "tidal-bloom", title: "Falling Blooms", year: 2026, medium: "Mixed media on canvas", dimensions: '12" × 12"', image: tidalBloom.url, available: true, price: "Inquire" },
   { id: "not-for-sale", title: "Not For Sale", year: 2026, medium: "Mixed media/cold wax on cradleboard", dimensions: '12" × 12"', image: notForSale.url, available: false },
 ];
