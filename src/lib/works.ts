@@ -1,15 +1,15 @@
-import jellyfish from "@/assets/jellyfish-framed.jpg.asset.json";
-import stones from "@/assets/stones-framed.jpg.asset.json";
-import woven from "@/assets/woven-framed.jpg.asset.json";
-import annettesGarden from "@/assets/annettes-garden-framed.jpg.asset.json";
-import lastSunset from "@/assets/last-sunset-framed.jpg.asset.json";
-import goldenThaw from "@/assets/golden-thaw-framed.jpg.asset.json";
-import gardenVisitor from "@/assets/garden-visitor-framed.jpg.asset.json";
-import tidalBloom from "@/assets/tidal-bloom-framed.jpg.asset.json";
-import notForSale from "@/assets/not-for-sale-framed.jpg.asset.json";
-import kachina from "@/assets/kachina-framed.jpg.asset.json";
-import circles from "@/assets/circles-framed.jpg.asset.json";
-import redPanels from "@/assets/red-panels-framed.jpg.asset.json";
+import jellyfish from "@/assets/jellyfish.jpg.asset.json";
+import stones from "@/assets/stones.jpg.asset.json";
+import woven from "@/assets/woven.jpg.asset.json";
+import annettesGarden from "@/assets/annettes-garden.jpg.asset.json";
+import lastSunset from "@/assets/last-sunset.jpg.asset.json";
+import goldenThaw from "@/assets/golden-thaw.jpg.asset.json";
+import gardenVisitor from "@/assets/garden-visitor.jpg.asset.json";
+import tidalBloom from "@/assets/tidal-bloom.jpg.asset.json";
+import notForSale from "@/assets/not-for-sale.jpg.asset.json";
+import kachina from "@/assets/kachina.jpg.asset.json";
+import circles from "@/assets/circles.jpg.asset.json";
+import redPanels from "@/assets/red-panels.jpg.asset.json";
 
 export type Work = {
   id: string;
