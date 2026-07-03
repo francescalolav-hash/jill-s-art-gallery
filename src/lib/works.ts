@@ -6,9 +6,6 @@ import lastSunset from "@/assets/last-sunset-framed.jpg.asset.json";
 import goldenThaw from "@/assets/golden-thaw-framed.jpg.asset.json";
 import gardenVisitor from "@/assets/garden-visitor-framed.jpg.asset.json";
 import tidalBloom from "@/assets/tidal-bloom-framed.jpg.asset.json";
-import riverbed from "@/assets/riverbed-framed.jpg.asset.json";
-import cirrus from "@/assets/cirrus-framed.jpg.asset.json";
-import crevice from "@/assets/crevice-framed.jpg.asset.json";
 
 export type Work = {
   id: string;
@@ -30,7 +27,4 @@ export const works: Work[] = [
   { id: "golden-thaw", title: "Golden Thaw", year: 2025, medium: "Mixed media, collage on canvas", dimensions: '24" × 24"', image: goldenThaw.url, available: true, price: "Inquire" },
   { id: "garden-visitor", title: "Garden Visitor", year: 2025, medium: "Mixed media, collage on canvas", dimensions: '24" × 24"', image: gardenVisitor.url, available: true, price: "Inquire" },
   { id: "tidal-bloom", title: "Tidal Bloom", year: 2025, medium: "Mixed media on canvas", dimensions: '24" × 24"', image: tidalBloom.url, available: true, price: "Inquire" },
-  { id: "riverbed", title: "Riverbed", year: 2022, medium: "Mixed media on canvas", dimensions: '48" × 24"', image: riverbed.url, available: true, price: "Inquire" },
-  { id: "cirrus", title: "Cirrus", year: 2023, medium: "Mixed media on canvas", dimensions: '36" × 24"', image: cirrus.url, available: false },
-  { id: "crevice-vii", title: "Crevice VII", year: 2024, medium: "Mixed media on canvas", dimensions: '24" × 24"', image: crevice.url, available: true, price: "Inquire" },
 ];
