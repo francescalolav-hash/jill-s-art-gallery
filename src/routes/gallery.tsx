@@ -20,7 +20,7 @@ function Gallery() {
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-4xl md:text-5xl text-center mb-4">Gallery</h2>
         <p className="text-center text-muted-foreground text-sm tracking-[0.15em] uppercase mb-16">
-          Selected Works · 2025 – 2026
+          Selected Works · 2026
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
