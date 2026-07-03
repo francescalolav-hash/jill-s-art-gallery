@@ -6,6 +6,7 @@ import lastSunset from "@/assets/last-sunset-framed.jpg.asset.json";
 import goldenThaw from "@/assets/golden-thaw-framed.jpg.asset.json";
 import gardenVisitor from "@/assets/garden-visitor-framed.jpg.asset.json";
 import tidalBloom from "@/assets/tidal-bloom-framed.jpg.asset.json";
+import notForSale from "@/assets/not-for-sale-framed.jpg.asset.json";
 
 export type Work = {
   id: string;
@@ -27,4 +28,5 @@ export const works: Work[] = [
   { id: "golden-thaw", title: "Golden Thaw", year: 2025, medium: "Mixed media, collage on canvas", dimensions: '24" × 24"', image: goldenThaw.url, available: true, price: "Inquire" },
   { id: "garden-visitor", title: "Garden Visitor", year: 2025, medium: "Mixed media, collage on canvas", dimensions: '24" × 24"', image: gardenVisitor.url, available: true, price: "Inquire" },
   { id: "tidal-bloom", title: "Tidal Bloom", year: 2025, medium: "Mixed media on canvas", dimensions: '24" × 24"', image: tidalBloom.url, available: true, price: "Inquire" },
+  { id: "not-for-sale", title: "Not For Sale", year: 2026, medium: "Mixed media/cold wax on cradleboard", dimensions: '12" × 12"', image: notForSale.url, available: false },
 ];
