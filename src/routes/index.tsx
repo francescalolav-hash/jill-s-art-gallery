@@ -45,8 +45,8 @@ function Home() {
               </p>
               <p>
                 What draws Jill to these subjects is not their surface beauty alone,
-                but the underlying logic beneath it, but the way nature repeats itself
-                across scales, the way light behaves differently inside a translucent
+                but the underlying logic beneath it, the way nature repeats itself
+                across scales, and the way light behaves differently inside a translucent
                 thing than it does on an opaque one. These questions drive her
                 process as much as her subject matter.
               </p>
