@@ -55,16 +55,6 @@ function Resume() {
           <Entry year="—">Scottsdale Artists School, Comprehensive Composite Drawing</Entry>
         </Section>
 
-        <Section title="Collections">
-          <Entry year="—">The Rockefeller Collection</Entry>
-          <Entry year="—">Morgan Stanley Corporate Collection</Entry>
-          <Entry year="—">Private collections, US and Europe</Entry>
-        </Section>
-
-        <Section title="Awards">
-          <Entry year="2023">Pollock-Krasner Foundation Grant</Entry>
-          <Entry year="2020">MacDowell Fellowship</Entry>
-        </Section>
 
       </div>
     </SiteLayout>
