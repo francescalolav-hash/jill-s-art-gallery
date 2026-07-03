@@ -40,16 +40,19 @@ function Resume() {
         <h2 className="text-4xl md:text-5xl text-center mb-16">Resumé</h2>
 
         <Section title="Education">
-          <Entry year="1992">Master of Fine Arts, Sculpture — Cranbrook Academy of Art</Entry>
-          <Entry year="1987">Bachelor of Fine Arts — Rhode Island School of Design</Entry>
+          <Entry year="—">Moore College of Art and Design, Philadelphia, PA. Freelance Art/Storyboard art</Entry>
+          <Entry year="—">Rutgers University, Camden, NJ. Computer Graphics, Graphic Design</Entry>
+          <Entry year="—">Deborah Heart and Lunch Center, Browns Mills, NJ. Medical Illustration</Entry>
         </Section>
 
-
         <Section title="Selected Group Exhibitions">
-          <Entry year="2024">National Sculpture Invitational, Baltimore</Entry>
-          <Entry year="2023">Wood Now, Museum of Craft, San Francisco</Entry>
-          <Entry year="2022">Contemporary Forms, Anderson Gallery, Chicago</Entry>
-          <Entry year="2021">Small Works, Blue Line Arts, Roseville</Entry>
+          <Entry year="2026">Mix It Up Media, Lynchburg, VA</Entry>
+        </Section>
+
+        <Section title="Workshops and Affiliations">
+          <Entry year="—">University of Oklahoma, Basic Facial Reconstruction</Entry>
+          <Entry year="—">International Association for Identification, Head and Neck Academy Art Workshop</Entry>
+          <Entry year="—">Scottsdale Artists School, Comprehensive Composite Drawing</Entry>
         </Section>
 
         <Section title="Collections">
@@ -62,6 +65,7 @@ function Resume() {
           <Entry year="2023">Pollock-Krasner Foundation Grant</Entry>
           <Entry year="2020">MacDowell Fellowship</Entry>
         </Section>
+
       </div>
     </SiteLayout>
   );
