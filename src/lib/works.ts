@@ -33,6 +33,6 @@ export const works: Work[] = [
   { id: "tidal-bloom", title: "Falling Blooms", year: 2026, medium: "Mixed media on canvas", dimensions: '12" × 12"', image: tidalBloom.url, available: true, price: "Inquire" },
   { id: "not-for-sale", title: "Not For Sale", year: 2026, medium: "Mixed media/cold wax on cradleboard", dimensions: '12" × 12"', image: notForSale.url, available: false },
   { id: "blue-corn-maiden", title: "Blue Corn Maiden", year: 2026, medium: "Acrylic on canvas", dimensions: '18" × 32"', image: kachina.url, available: true, price: "Inquire" },
-  { id: "circles", title: "Circles", year: 2026, medium: "Mixed media on cradleboard", dimensions: '12" × 12"', image: circles.url, available: true, price: "Inquire" },
+  { id: "biospheres", title: "Biospheres", year: 2026, medium: "Mixed media/cold wax/oil on cradleboard", dimensions: '12" × 12"', image: circles.url, available: true, price: "Inquire" },
   { id: "red-panels", title: "Red Panels", year: 2026, medium: "Mixed media on canvas", dimensions: '18" × 24"', image: redPanels.url, available: true, price: "Inquire" },
 ];
