@@ -24,7 +24,7 @@ export const works: Work[] = [
   { id: "river-stones", title: "Tumbled Light", year: 2026, medium: "Mixed media on paper", dimensions: '16" × 24"', image: stones.url, available: true, price: "Inquire" },
   { id: "woven-earth", title: "Woven Earth", year: 2026, medium: "Mixed media, handmade paper on canvas", dimensions: '30" × 30"', image: woven.url, available: true, price: "Inquire" },
   { id: "annettes-garden", title: "Annette's Garden", year: 2026, medium: "Mixed media on canvas", dimensions: '30" × 24"', image: annettesGarden.url, available: true, price: "Inquire" },
-  { id: "last-sunset", title: "Last Sunset", year: 2026, medium: "Acrylic and cold wax on panel", dimensions: '24" × 24"', image: lastSunset.url, available: true, price: "Inquire" },
+  { id: "last-sunset", title: "Last Sunset", year: 2026, medium: "Mixed media on cradleboard", dimensions: '18" × 18"', image: lastSunset.url, available: true, price: "Inquire" },
   { id: "golden-thaw", title: "Pale Ruins", year: 2026, medium: "Mixed media on cradleboard", dimensions: '12" × 12"', image: goldenThaw.url, available: true, price: "Inquire" },
   { id: "garden-visitor", title: "Butterfly Journey", year: 2026, medium: "Mixed media, collage on cradleboard", dimensions: '12" × 12"', image: gardenVisitor.url, available: true, price: "Inquire" },
   { id: "tidal-bloom", title: "Falling Blooms", year: 2026, medium: "Mixed media on canvas", dimensions: '12" × 12"', image: tidalBloom.url, available: true, price: "Inquire" },
