@@ -77,8 +77,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Jill Pierucci Bolakas — Sculptor" },
-      { name: "description", content: "Sculptural works in wood by Jill Pierucci Bolakas — carved, layered forms exploring rhythm, movement, and time." },
+      { title: "Jill Pierucci Bolakas -Artist" },
+      { name: "description", content: "Abstract Mixed Media works by Jill Pierucci Bolakas - layered forms exploring rhythm, movement, and time." },
+      { property: "og:title", content: "Jill Pierucci Bolakas -Artist" },
+      { name: "twitter:title", content: "Jill Pierucci Bolakas -Artist" },
+      { property: "og:description", content: "Abstract Mixed Media works by Jill Pierucci Bolakas - layered forms exploring rhythm, movement, and time." },
+      { name: "twitter:description", content: "Abstract Mixed Media works by Jill Pierucci Bolakas - layered forms exploring rhythm, movement, and time." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/78598127-53d1-4a3d-8eb9-d04f03c71574/id-preview-470b77d4--75143061-5e9c-4f4e-b2e6-7cfd62ae097e.lovable.app-1783100374673.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/78598127-53d1-4a3d-8eb9-d04f03c71574/id-preview-470b77d4--75143061-5e9c-4f4e-b2e6-7cfd62ae097e.lovable.app-1783100374673.png" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:type", content: "website" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
