@@ -44,11 +44,6 @@ function Resume() {
           <Entry year="1987">Bachelor of Fine Arts — Rhode Island School of Design</Entry>
         </Section>
 
-        <Section title="Selected Solo Exhibitions">
-          <Entry year="2024">Rhythms in Wood, Chatham Gallery, New York</Entry>
-          <Entry year="2022">Layered Time, Gallery North, Boston</Entry>
-          <Entry year="2020">Undulations, Studio 12, Providence</Entry>
-        </Section>
 
         <Section title="Selected Group Exhibitions">
           <Entry year="2024">National Sculpture Invitational, Baltimore</Entry>
