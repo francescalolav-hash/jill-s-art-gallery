@@ -20,6 +20,7 @@ export type Work = {
   image: string;
   available?: boolean;
   price?: string;
+  sold?: boolean;
 };
 
 export const works: Work[] = [
