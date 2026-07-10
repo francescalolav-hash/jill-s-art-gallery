@@ -54,7 +54,9 @@ function Available() {
                   </div>
                   <div className="flex gap-4">
                     <dt className="w-28 text-muted-foreground uppercase tracking-widest text-xs pt-1">Price</dt>
-                    <dd>{w.price ?? "Inquire"}</dd>
+                    <dd className={w.sold ? "font-semibold tracking-widest uppercase text-[#c1121f]" : ""}>
+                      {w.sold ? "Sold" : (w.price ?? "Inquire")}
+                    </dd>
                   </div>
                 </dl>
                 <Link
